@@ -1,2 +1,2 @@
 # ayamgeprekmc.github.io
-Ayam Geprek Spesial
+Ayam Geprek Spesial : www.ayamgeprekmc.com
