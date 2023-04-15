@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayam Geprek Mom Cinta</title>
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/dashboard/">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="icon" href="img/iconlogo.png" type="image/png">
+</head>
+
+<!-- disavesementara yg bawah ini -->
+<script>
+  function hidenav() {
+    document.getElementById("navbarNav").className = "navbar-collapse collapse hide";
+    // document.getElementById("kliku").className = "navbar-toggler collapsed";
+  }
+</script>
+
+
+
+<a class="waku" href="https://wa.me/6285770984833" target="_blank">
+  <span class="">
+    <i class="fa fa-circle fa-stack-2x text-success"></i>
+    <i class="fa fa-whatsapp fa-stack-1x fa-inverse"></i>
+  </span>
+</a>
+<a class='fixed-whatsapp' href='https://api.whatsapp.com/send?phone=6285770984833' rel='nofollow noopener'
+  target='_blank' title='Whatsapp'>
+</a>
+<a id="whatsappkun" class='fixed-whatsappku' href='https://api.whatsapp.com/send?phone=6285770984833' rel='nofollow noopener'
+  target='_blank' title='Whatsapp'>
+</a>
+
+<!-- <script>
+  // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+    scrollFunction2()
+  };
+
+  /////// navbar bawah
+  function scrollFunction2() {
+    var whatsappku = document.getElementById("whatsappkun");
+    var whatsappku2 = document.getElementById("whatsappku");
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      // document.getElementById("navbarku").style.top = "0px";
+      // whatsapp.style.top = "0px";
+      whatsappku.style.display = "block";
+      whatsappku2.style.display = "block";
+      // whatsappku.style.marginTop = "0px"
+    } else {
+      // whatsappku.style.marginTop = "-50px";
+      // whatsapp.style.top = "-2px";
+      whatsappku.style.display = "none";
+      whatsappku2.style.display = "none";
+      // document.getElementById("navbarku").style.top = "-50px";
+    }
+    prevScrollpos = currentScrollPos;
+    // if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    //   whatsapp.style.display = "none";
+    // } else {
+    //   whatsapp.style.display = "block";
+    // }
+
+  }
+</script> -->
+
+<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="200">
+  <!-- START NAVIGASI BAR -->
+  <!-- <nav id="main-navbar" class="navbar navbar-expand-md navbar-light bg-light fixed-top py-2 py-md-0"> -->
+  <nav id="main-navbar" class="navbar navbar-expand-md navbar-light bg-white fixed-top py-0 py-md-0 shadow">
+    <div class="container">
+      <a href="#" class="navbar-brand fw-bold text-capitalize"
+        style="color: rgba(96, 56, 238, 0.808) ;-webkit-text-stroke: 0.5px rgba(96, 56, 238, 0.808)">
+        <span class="d-none">My</span>
+        <img src="img/logobaru.png" alt="logo" class="main-logo d-none d-md-inline">
+        <img src="img/logobaru.png" alt="logo" class="small-logo d-inline d-md-none" style="height:80px">
+        <!-- <p class="list-inline-item" >Ayam Geprek</p> -->
+      </a>
+      <button id="kliku" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse hide" id="navbarNav">
+        <ul class="navbar-nav ms-auto fw-bold">
+          <li class="nav-item" onclick="navku()">
+            <a href="#showcase" class="nav-link p-3 active">Home</a>
+          </li>
+          <li class="nav-item" onclick="navku()">
+            <a href="#menu" class="nav-link p-3">Menu</a>
+          </li>
+          <li class="nav-item" onclick="navku()">
+            <a href="#services" class="nav-link p-3">Services</a>
+          </li>
+          <li class="nav-item" onclick="navku()">
+            <a href="#reviews" class="nav-link p-3">Reviews</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+  <!-- END NAVIGASI BAR -->
+  <!-- Whatsapp -->
+  <!-- START SHOWCASE -->
+  <section id="showcase" class="py-5">
+    <div class="dark-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center text-white" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="">
+            <h1 class="fw-bold">AYAM GEPREK<strong
+                style="font-style: italic; color: rgb(221, 7, 7); -webkit-text-stroke: 1px rgb(255, 255, 255);"><br>Mom
+                Cinta</strong></h1>
+            <p id="sahabatw" class="lead fw-normal"></p>
+          </div>
+          <div class="text-center text-white" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+            data-aos-delay="300" data-aos-offset="0">
+            <div id="hasilku" class="lead fw-normal">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END SHOWCASE -->
+  <!-- data-aos="fade-zoom-in"> -->
+  <!-- START SHOWOFF 1 -->
+  <section id="menu" class="bg-white text-muted py-5" data-aos="fade-zoom-in">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6" style="text-align: justify;">
+          <h2 class="fw-bold text-dark">Ayam Geprek</h2>
+          <p class="fw-light fw-bolder">Ayam Geprek khas Mom Cinta dengan kulit yang renyah dan daging yang lembut
+            gurih. Rasakan sensasi pedasnya dengan taburan sambal yang pedas nikmat. Dengan Daging Ayam yang besar
+            makan
+            jadi lebih puas.
+          </p>
+          <p>Tersedia dalam pilihan Ayam Geprek, Ayam Geprek+Nasi, Ayam Chicken, Ayam Chicken+Nasi dan lainnya.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="img/menu1.jpeg" alt="" class="img-fluid mb-3">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END SHOWOFF 1 -->
+
+  <!-- START SHOWOFF 2 -->
+  <section id="showoff-2" class="text-muted py-5 bg-white" data-aos="fade-zoom-in">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/menu2.jpg" alt="" class="img-fluid mb-3">
+        </div>
+        <div class="col-md-6" style="text-align: justify;">
+          <h2 class="fw-bold text-dark">Aneka Minuman</h2>
+          <p class="fw-light fw-bolder">Aneka Minuman khas Mom Cinta menyediakan berbagai minuman pilihan</p>
+          <p>Teh Manis/Tawar, Teh Botol, Teh Gula Batu, Es Teh Manis/Tawar dan aneka minuman segar lainnya</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END SHOWOFF 2 -->
+
+  <!-- START PRODUCT -->
+  <section id="services" class="py-5 bg-light">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col text-center">
+          <h1>Services</h1>
+          <h4 class="display-6">(Pelayanan)</h4>
+          <hr class="w-25 mx-auto">
+          <!-- <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, quia.</p> -->
+        </div>
+      </div>
+
+      <div class="row text-center justify-content-between mt-3">
+        <div class="col-sm-6 col-md-3 p-3" data-aos="zoom-in">
+          <!-- <i class="bi-hand-index"></i> -->
+          <img src="img/fine-dining.png" alt="icon" class="w-25">
+          <h4 class="mt-3 list-group">Dine-in</h4>
+          <p>Makan Di tempat</p>
+          <p>Tersedia makan ditempat dengan fasilitas kenyamanan yang selalu terjaga</p>
+        </div>
+        <div class="col-sm-6 col-md-3 p-3" data-aos="zoom-in">
+          <img src="img/take-away.png" alt="icon" class="w-25">
+          <h4 class="mt-3 list-group">Takeaway</h4>
+          <p>Bawa Pulang</p>
+          <p>Anda juga bisa bawa pulang makanan anda dengan kemasan bungkus terbaik</p>
+        </div>
+        <div class="col-sm-6 col-md-3 p-3" data-aos="zoom-in">
+          <img src="img/delivery.png" alt="icon" class="w-25">
+          <h5 class="mt-3 list-group">Delivery</h5>
+          <p>Antar Ke Rumah</p>
+          <p>Anda bisa pesan dari rumah dan Kami siap mengantar kerumah anda</p>
+        </div>
+        <div class="col-sm-6 col-md-3 p-3" data-aos="zoom-in">
+          <img src="img/event.png" alt="icon" class="w-25">
+          <h5 class="mt-3 list-group">Event Food</h5>
+          <p>Paket Makanan Untuk Acara</p>
+          <p>Kami bersedia membuat paket makanan untuk acara, pesta dan lainnya</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END PRODUCT -->
+
+  <!-- START EXPLORE -->
+  <!-- <section id="explore" class="bg-dark text-white py-5">
+    <div class="container py-5" data-aos="fade-up">
+      <div class="row">
+        <div class="col text-center">
+          <h1 class="display-4">Explore</h1>
+          <p class="lead"></p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet consectetur soluta neque omnis fugiat nihil
+            rerum quibusdam officiis, quam illum, quas facere? Excepturi, repudiandae rerum!</p>
+          <a href="#" class="btn btn-outline-light">Find Out More</a>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- END EXPLORE -->
+
+  <!-- START OUR TEAM -->
+
+  <section id="reviews" class="pt-5 text-center">
+    <div class="container py-5">
+      <div class="row mb-5">
+        <div class="col">
+          <!-- <h1 class="pb-3">Reviews</h1> -->
+          <h1 class="">Reviews</h1>
+          <hr class="w-25 mx-auto">
+        </div>
+      </div>
+
+      <div id="review" class="carousel slide d-xs-block d-sm-block d-md-block d-lg-none d-xl-none"
+        data-bs-ride="carousel" data-aos="fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <div class="card">
+              <img src="./reviews/done/rew1.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <div class="card">
+              <img src="./reviews/done/rew2.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <div class="card">
+              <img src="./reviews/done/rew3.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <div class="card">
+              <img src="./reviews/done/rew4.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <div class="card">
+              <img src="./reviews/done/rew5.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <div class="card">
+              <img src="./reviews/done/rew6.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="review2" class="d-none d-lg-block">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <div class="card">
+              <div class="row">
+                <div class="col-4">
+                  <img src="./reviews/done/rew1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="col-4">
+                  <img src="./reviews/done/rew2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="col-4">
+                  <img src="./reviews/done/rew3.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-4">
+                  <img src="./reviews/done/rew4.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="col-4">
+                  <img src="./reviews/done/rew5.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="col-4">
+                  <img src="./reviews/done/rew6.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+  </section>
+  <!-- END OUR TEAM -->
+
+  <!-- START NEWSLETTER -->
+  <!-- <section id="newsletter" class="textcenter bg-dark text-white p-5" data-aos="fade-up">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>Join Our Newsletter</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore magnam enim, nulla rerum doloremque
+            incidunt nemo neque cum accusamus hic aliquid facere, aliquam sunt saepe?</p>
+        </div>
+      </div>
+      <form>
+        <div class="row g-2">
+          <div class="col col-12 col-md-auto ms-auto">
+            <label for="name" class="visually-hidden">Nama</label>
+            <input type="text" class="form-control" placeholder="Nama Lengkap">
+          </div>
+
+          <div class="col col-12 col-md-auto">
+            <label for="email" class="visually-hidden">Email</label>
+            <input type="email" class="form-control" placeholder="Alamat email">
+          </div>
+
+          <div class="col col-auto mx-auto ms-md-0">
+            <button class="btn btn-secondary" type="submit">Daftar</button>
+          </div>
+
+        </div>
+      </form>
+    </div>
+  </section> -->
+  <div class="mapouter" data-aos="fade" data-aos-delay="500">
+    <div class="gmap_canvas">
+      <iframe width="500px" height="500px" id="gmap_canvas"
+        src="https://maps.google.com/maps?q=Ayam%20Geprek%20mom%20cinta%20cicinde%20utara&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        frameborder="0" scrolling="no" marginheight="0" marginwidth="500px"></iframe>
+      <br>
+      <style>
+        .mapouter {
+          position: relative;
+          text-align: center;
+          height: auto;
+          width: auto;
+        }
+
+        .gmap_canvas {
+          overflow: hidden;
+          background: none !important;
+          height: auto;
+          width: auto;
+        }
+      </style>
+    </div>
+  </div>
+  <!-- END NEWSLATER -->
+
+  <!-- START FOOTER -->
+  <footer class="bg-light text-lg-start">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-4 mb-md-4">
+          <h5 class="text-uppercase">Alamat</h5>
+          <li style="list-style:none;" class="nav-item">
+            <span data-feather="map-pin"></span>
+            <h6 class="list-inline-item">Jl. Raya Cilamaya Cicinde Utara,</h6>
+            <h6 class="list-inline-item">Kec. Banyusari, Karawang, Jawa Barat 41374</h6>
+            <br>
+            <span data-feather="navigation"></span>
+            <h6 class="list-inline-item">Depan Masjid Jami AL-MA'WAA</h6>
+          </li>
+        </div>
+
+        <div class="col-lg-4 col-md-12 mb-4 mb-md-4">
+          <h5 class="text-uppercase">Contact Center</h5>
+          <li style="list-style:none;" class="nav-item">
+            <span data-feather="phone"></span>
+            <h6 class="list-inline-item">+62 857-7098-4833</h6>
+            <br>
+            <span data-feather="mail"></span>
+            <h6 class="list-inline-item">0857 7098 4833</h6>
+          </li>
+        </div>
+
+        <div class="col-lg-4 col-md-12 mb-4 mb-md-4">
+          <h5 class="text-uppercase">buka</h5>
+          <li style="list-style:none;" class="nav-item">
+            <span data-feather="watch"></span>
+            <h6 class="list-inline-item">Mulai Pukul 10.00 Pagi</h6>
+            <br>
+            <span data-feather="chevrons-right"></span>
+            <h6 class="list-inline-item">Sampai Pukul 09.00 Malam</h6>
+          </li>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <!-- <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);"> -->
+    <div class="text-center text-white fw-bold p-3 bg-danger">
+      Copyright © 2022<br>
+      <a class="text-white fw-bold text-decoration-none" href="#">Ayam Geprek Mom Cinta</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- 
+  <footer id="main-footer" class="text-white text-center bg-dark py-5" data-aos="fade-up">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-md-start me-auto">
+          <h5>PROFILE</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, adipisci!</p>
+          <small>&copy; PROFILE 2022</small>
+        </div>
+
+        <div class="col-md-4 mt-4 mt-md-0 text-md-start">
+          <h5>Hubungi Kami</h5>
+          <div>
+            <i class="bi-envelope fs-5 me-3"></i>Rechmand@profile.com
+          </div>
+          <div>
+            <i class="bi-phone fs-5 me-3"></i>(021) 123456
+          </div>
+          <div>
+            <i class="bi-globe fs-5 me-3"></i>www.profile.com
+          </div>
+          <div class="pt-3">
+            <a href="#" class="text-white text-decoration-none me-2">
+              <i class="bi-facebook fs-5"></i>
+            </a>
+            <a href="#" class="text-white text-decoration-none me-2">
+              <i class="bi-twitch fs-5"></i>
+            </a>
+            <a href="#" class="text-white text-decoration-none me-2">
+              <i class="bi-instagram fs-5"></i>
+            </a>
+            <a href="#" class="text-white text-decoration-none me-2">
+              <i class="bi-whatsapp fs-5"></i>
+            </a>
+            <a href="#" class="text-white text-decoration-none me-2">
+              <i class="bi-github fs-5"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer> -->
+  <!-- END FOOTER -->
+
+  <script>
+    var i = 0, text;
+    text = "Makanan Sehat Harga Bersahabat.."
+
+    function ketik() {
+      // timeFunction()
+      // setTimeout(900);
+      if (i < text.length) {
+        document.getElementById("hasilku").innerHTML += text.charAt(i);
+        i++;
+        setTimeout(ketik, 80);
+      }
+    }
+    setTimeout(function () { ketik(); }, 1100);
+  </script>
+
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/klik.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  <script>
+    AOS.init({
+      once: true,
+      duration: 300,
+    });
+  </script>
+  <script>
+    feather.replace()
+  </script>
+</body>
+
+</html>
